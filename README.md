@@ -1,5 +1,7 @@
 # Minecraft Username Availability Checker
 
+Important: This is a fork of tropicbliss's repository. I added the ability to generate short names from a customisable set of characters. I plan to add an easier method to do this.
+
 This tiny utility is able to check Minecraft usernames in bulk to determine whether they were made available recently.
 
 This version includes multithreading support which drastically improves speed, making this one of the fastest username checkers ever. You'll get rate limited almost immediately, guaranteed!
@@ -24,7 +26,7 @@ Run `bash -c "curl -sLo check.sh https://raw.githubusercontent.com/chronicallyun
 
 You will have to have a few things installed before running the checker. This installation guide assumes that you are on a 64bit Windows system.
 
-First, you will need to install Python. It's recommended to use either version `3.8.5` or `3.8.6`. You must use a Python version above `3.0`. 
+First, you will need to install Python. It's recommended to use either version `3.8.5` or `3.8.6`. You must use a Python version above `3.0`.
 
 ### Installing Python
 
